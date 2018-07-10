@@ -1,0 +1,21 @@
+{
+  "name": "planyway-date-parser",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Maksym Mospanenko <mmospanenko@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "webpack -p"
+  },
+  "dependencies": {
+    "pako": "^1.0.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.52",
+    "@babel/preset-env": "^7.0.0-beta.52",
+    "babel-loader": "^8.0.0-beta",
+    "webpack": "^4.15.1",
+    "webpack-cli": "^3.0.8"
+  }
+}
